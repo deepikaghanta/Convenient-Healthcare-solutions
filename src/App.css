@@ -1,6 +1,13 @@
 .App {
   text-align: center;
 }
+.App input {
+  margin-top: 20px;
+  height: 40px;
+  width: 400px;
+  font-size: 20px;
+  padding-left: 10px;
+}
 
 .App-logo {
   height: 40vmin;
