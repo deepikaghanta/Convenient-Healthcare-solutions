@@ -2,12 +2,29 @@
   text-align: center;
 }
 .App input {
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   height: 40px;
   width: 400px;
   font-size: 20px;
   padding-left: 10px;
 }
+.user{
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* .user{
+  height: 300px;
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.user div{
+    border-width: 1px;
+} */
+
 
 .App-logo {
   height: 40vmin;
