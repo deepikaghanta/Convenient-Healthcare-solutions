@@ -6,6 +6,7 @@ import Button from "react-bootstrap/Button";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
+
   return (
     <div className="App">
       <input
@@ -38,8 +39,7 @@ function App() {
                     variant="primary"
                     onClick={(e) => {
                       e.preventDefault();
-                      window.location.href =
-                        "https://www.youtube.com/watch?v=V_p0rt9U3K4";
+                      window.location.href = val.video;
                     }}
                   >
                     View
